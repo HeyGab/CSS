@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        div.quadrado{
+            width: 600px;
+            height: 600px;
+            background: white;
+            margin: 0 auto;
+        }
+        div.roxo{
+            width: 300px;
+            height: 300px;
+            background: purple;
+            margin: auto;
+        }
+        #relative{
+            position:relative;
+            bottom: 450px;
+            right: 0;
+        }
+        div.amarelo{
+            width: 200px;
+            height: 200px;
+            background: yellow;
+            margin: 0 auto;
+            top: -700px;
+        }
+        div.vermelho{
+            width: 100px;
+            height: 100px;
+            background: red;
+            margin: 0 auto;
+            top: -850px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="quadrado"></div>
+    <div class="roxo" id="relative"></div>
+    <div class="amarelo" id="relative"></div>
+    <div class="vermelho" id="relative"></div>
+</body>
+</html>
